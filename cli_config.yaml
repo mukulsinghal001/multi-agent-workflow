@@ -1,0 +1,37 @@
+# Configuration for response generation
+generation_config:
+  # --- Global Defaults ---
+  # These settings apply to any agent that doesn't have a specific override.
+  seed: 42
+  max_output_tokens: 2048
+
+  # --- Agent-Specific Overrides ---
+  agents:
+    # For strategic, high-level thinking.
+    SeniorDirector:
+      temperature: 0.2
+      top_k: 30
+
+    # Needs creativity to generate diverse hypotheses.
+    MiQDataStrategist:
+      temperature: 0.6
+      top_p: 0.95
+
+    # Needs to be extremely precise and deterministic for code generation.
+    LeadAnalyst:
+      temperature: 0.05
+      top_k: 10
+      
+    # Needs a balance of statistical rigor and creative modeling ideas.
+    LeadDataScientist:
+      temperature: 0.3
+      top_p: 0.9
+
+    # Needs to be creative and thorough for research.
+    LeadResearcher:
+      temperature: 0.5
+
+    # Needs to be eloquent and creative for writing compelling reports.
+    LeadReportWriter:
+      temperature: 0.55
+      top_p: 0.98

@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PySpark
+.spark/
+.metastore/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Data
+data/
+datasets/
+
+# Logs
+logs/
+*.log
+
+# Output
+output/
+results/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Gemini
+.gemini/
+cache/
+
+# Runs (keep these but ignore temporary files)
+runs/*/
+!runs/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Large files
+*.zip
+*.tar
+*.gz
+
+# Credentials
+*.pem
+*.key
+*.secret
+
+# Build
+build/
+dist/
+*.egg-info/
