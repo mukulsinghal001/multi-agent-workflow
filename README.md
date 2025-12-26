@@ -167,7 +167,7 @@ nano data_repository_demo.md
 # Review guardrails and compliance
 nano guardrails_demo.md
 ```
-## Sample Output
+## 📃 Sample Output
 
 <img width="1418" height="925" alt="image" src="https://github.com/user-attachments/assets/c3c06bad-f982-4e8a-94cd-a91bcf2befb0" />
 
@@ -335,5 +335,6 @@ For questions about this demo:
 5. **Privacy Compliant**: Contains no sensitive or proprietary information
 
 This demo provides a safe, company-agnostic way to experience the full capabilities of a sophisticated multi-agent framework while maintaining complete data privacy and business confidentiality.
+
 
 
