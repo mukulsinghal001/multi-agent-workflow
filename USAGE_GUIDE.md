@@ -62,11 +62,13 @@ GOAL SET → HYPOTHESIS → ANALYSIS → RESEARCH → REPORT → REVIEW → (ITE
 ### 1. Customer Acquisition Analysis
 
 **Goal Example:**
+
 ```
 GOAL: Identify high-potential customer segments in underperforming regions and develop targeted acquisition strategies.
 ```
 
 **Expected Output:**
+
 - Customer segment analysis by region
 - Acquisition channel effectiveness
 - Competitive benchmarking
@@ -75,11 +77,13 @@ GOAL: Identify high-potential customer segments in underperforming regions and d
 ### 2. Customer Retention Study
 
 **Goal Example:**
+
 ```
 GOAL: Reduce customer churn by 20% in the next quarter by identifying key drivers and developing targeted retention programs.
 ```
 
 **Expected Output:**
+
 - Churn analysis by customer segment
 - Engagement pattern identification
 - Retention strategy recommendations
@@ -88,11 +92,13 @@ GOAL: Reduce customer churn by 20% in the next quarter by identifying key driver
 ### 3. Product Performance Analysis
 
 **Goal Example:**
+
 ```
 GOAL: Improve product portfolio performance by identifying top-performing categories and optimization opportunities.
 ```
 
 **Expected Output:**
+
 - Product category analysis
 - Sales performance trends
 - Pricing strategy insights
@@ -145,6 +151,7 @@ cat data_repository_demo.md
 ### Understanding the Transcript
 
 The `transcript.md` file contains:
+
 - **Agent conversations**: How agents collaborate
 - **Hypothesis generation**: Initial ideas and rationale
 - **Analysis results**: Data findings and insights
@@ -154,6 +161,7 @@ The `transcript.md` file contains:
 ### Reading the Report
 
 The `report.md` file includes:
+
 - **Executive Summary**: Key insights and recommendations
 - **Methodology**: How the analysis was conducted
 - **Findings**: Detailed results and patterns
@@ -163,6 +171,7 @@ The `report.md` file includes:
 ## 🎓 Learning Tips
 
 ### For Beginners
+
 1. Start with simple, clear goals
 2. Review the transcript to understand agent collaboration
 3. Study the hypothesis generation process
@@ -170,6 +179,7 @@ The `report.md` file includes:
 5. Learn from the report structure
 
 ### For Intermediate Users
+
 1. Experiment with different goal formulations
 2. Modify agent configurations for different outcomes
 3. Analyze how hypotheses are generated from goals
@@ -177,6 +187,7 @@ The `report.md` file includes:
 5. Compare different report outputs
 
 ### For Advanced Users
+
 1. Test edge cases and complex scenarios
 2. Analyze guardrail enforcement
 3. Study agent interaction patterns
@@ -188,6 +199,7 @@ The `report.md` file includes:
 ### Common Issues
 
 **Issue: Framework not starting**
+
 ```bash
 # Check Python environment
 python --version
@@ -198,6 +210,7 @@ pip list | grep gemini
 ```
 
 **Issue: No output generated**
+
 ```bash
 # Check task file format
 cat task_demo.txt
@@ -206,6 +219,7 @@ cat task_demo.txt
 ```
 
 **Issue: Slow performance**
+
 ```bash
 # Reduce data complexity
 # Simplify business goal
@@ -256,12 +270,14 @@ done
 ## 🤝 Community Resources
 
 ### Getting Help
+
 - **GitHub Issues**: Report bugs and request features
 - **Documentation**: Review README.md and contributing guidelines
 - **FAQ**: Check common questions and answers
 - **Discussions**: Join community conversations
 
 ### Sharing Your Work
+
 ```bash
 # Share your demo results (remove any sensitive info)
 git clone your-fork
@@ -285,12 +301,13 @@ git push origin main
 - [README.md](README.md) - Complete project overview
 - [CONTRIBUTING.md](CONTRIBUTING.md) - How to contribute
 - [data_repository_demo.md](data_repository_demo.md) - Generic data schemas
-- [workflow_demo.md](workflow_demo.md) - Framework workflow
+- [Gemini.md](Gemini.md) - Framework workflow
 - [guardrails_demo.md](guardrails_demo.md) - Safety guidelines
 
 ---
 
 **Need More Help?**
+
 - Check the [FAQ](FAQ.md)
 - Review the [documentation](README.md)
 - Open a GitHub issue

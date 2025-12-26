@@ -23,7 +23,7 @@ This demo allows you to experience the full capabilities of a multi-agent framew
 multi_agent_demo/
 ├── agents_demo.md              # Generic agent personas and capabilities
 ├── data_repository_demo.md     # Generic data schemas and analytical use cases
-├── workflow_demo.md            # Generic workflow documentation
+├── gemini.md                   # Gemini Instructions
 ├── guardrails_demo.md          # Demo-specific guardrails and compliance rules
 ├── task_demo.txt               # Example business goals for demonstration
 ├── cli_config.yaml             # Agent configuration (unchanged)
@@ -34,18 +34,21 @@ multi_agent_demo/
 ## 🎯 Key Features
 
 ### ✅ Safe for Public Sharing
+
 - **No sensitive data**: All company-specific information removed
 - **Generic schemas**: Realistic but anonymized data structures
 - **Hypothetical scenarios**: Illustrative business examples
 - **Privacy-compliant**: Designed for public GitHub repositories
 
 ### ✅ Full Framework Functionality
+
 - **Multi-agent collaboration**: All 6 agent types work together
 - **Complete workflow**: From goal setting to final report
 - **Iterative refinement**: Strategic review and feedback loops
 - **Data analysis**: Generic but realistic analytical patterns
 
 ### ✅ Educational Value
+
 - **Learn agent roles**: Understand how each agent contributes
 - **See workflow in action**: Experience the staged collaboration process
 - **Study guardrails**: Learn about ethical AI and data privacy
@@ -82,26 +85,31 @@ The demo includes a comprehensive generic data repository with 6 data feeds:
 Here are some generic business goals you can use to test the framework:
 
 ### 1. Customer Acquisition
+
 ```
 GOAL: Increase customer acquisition and market share in underperforming regions by identifying high-potential customer segments and developing targeted marketing strategies that leverage competitive insights.
 ```
 
 ### 2. Customer Retention
+
 ```
 GOAL: Reduce customer churn in underperforming segments by identifying key drivers and developing targeted retention strategies using demo customer data.
 ```
 
 ### 3. Product Innovation
+
 ```
 GOAL: Identify product innovation opportunities by analyzing customer preferences, purchase patterns, and market trends in the generic product data.
 ```
 
 ### 4. Marketing Optimization
+
 ```
 GOAL: Optimize marketing spend allocation by analyzing channel performance, customer segment response, and ROI patterns in the demo marketing data.
 ```
 
 ### 5. Market Expansion
+
 ```
 GOAL: Identify new market expansion opportunities by analyzing regional performance, customer demographics, and competitive positioning using the generic data repository.
 ```
@@ -109,12 +117,14 @@ GOAL: Identify new market expansion opportunities by analyzing regional performa
 ## 🔧 Technical Requirements
 
 ### Prerequisites
+
 - Python 3.8+
 - PySpark (for data analysis)
 - Gemini CLI (for agent orchestration)
 - Basic understanding of data analysis concepts
 
 ### Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/your-repo/multi-agent-demo.git
@@ -130,6 +140,7 @@ python -m spylon-kernel install
 ## 📖 Usage Examples
 
 ### Basic Workflow
+
 ```bash
 # 1. Define your business goal
 echo "GOAL: Increase customer retention in Region North by 15%" > task_demo.txt
@@ -142,6 +153,7 @@ cat runs/YYYYMMDD_hhmmss_retention/report.md
 ```
 
 ### Advanced Usage
+
 ```bash
 # Customize agent configurations
 nano cli_config.yaml
@@ -159,18 +171,21 @@ nano guardrails_demo.md
 ## 🎓 Learning Resources
 
 ### For Beginners
+
 - Start with simple business goals
 - Review the generated transcripts to understand agent collaboration
 - Study the sample hypotheses and analytical approaches
 - Experiment with different goal formulations
 
 ### For Developers
+
 - Examine the agent configurations in `cli_config.yaml`
 - Study the guardrail implementation in `guardrails_demo.md`
 - Review the workflow documentation for integration points
 - Test edge cases and error handling
 
 ### For Business Users
+
 - Focus on the strategic workflow and agent roles
 - Learn how to formulate effective business goals
 - Understand the hypothesis-to-insight process
@@ -181,12 +196,14 @@ nano guardrails_demo.md
 The framework includes comprehensive guardrails to ensure safe and ethical operation:
 
 ### Universal Guardrails
+
 - **No Hallucination**: Agents never invent data or sources
 - **No Unauthorized Access**: Strict data access controls
 - **Privacy Protection**: No PII or sensitive data exposure
 - **Version Awareness**: Current and relevant sources only
 
 ### Demo-Specific Guardrails
+
 - **Generic Data Only**: No real company names or brands
 - **Hypothetical Scenarios**: Illustrative but not actionable
 - **Privacy by Design**: Built for public sharing
@@ -207,6 +224,7 @@ The framework follows a staged, iterative process:
 ## 📈 Sample Outputs
 
 ### Hypothesis Example
+
 ```
 Hypothesis: Customers in Region North who haven't purchased in 90+ days show 25% higher response rates to personalized email campaigns compared to generic promotions.
 
@@ -218,6 +236,7 @@ Expected Pattern: Higher engagement and conversion rates from personalized vs. g
 ```
 
 ### Analytical Code Example
+
 ```python
 # Analyze customer re-engagement patterns by region
 from pyspark.sql import functions as F
@@ -235,6 +254,7 @@ customer_engagement = spark.table("customer_data")
 ```
 
 ### Report Structure
+
 ```
 1. Executive Summary
    - Key insights and recommendations
@@ -266,6 +286,7 @@ customer_engagement = spark.table("customer_data")
 We welcome contributions to improve the demo framework!
 
 ### How to Contribute
+
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/your-feature`
 3. Make your changes
@@ -273,6 +294,7 @@ We welcome contributions to improve the demo framework!
 5. Submit a pull request
 
 ### Contribution Guidelines
+
 - Maintain data privacy and generic content
 - Follow existing code patterns and documentation style
 - Add tests for new features
@@ -293,6 +315,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 For questions about this demo:
+
 - Open an issue on GitHub
 - Review the documentation
 - Check the FAQ section

@@ -1,0 +1,80 @@
+# Demo Task Example
+
+This file contains a generic business goal that can be used to demonstrate the multi-agent framework without exposing sensitive company information.
+
+---
+
+## Example Business Goal
+
+```
+GOAL: Increase customer acquisition and market share in underperforming regions by identifying high-potential customer segments and developing targeted marketing strategies that leverage competitive insights.
+```
+
+## Demo Scenario Context
+
+**Market**: Generic consumer goods market
+**Objective**: Demonstrate the framework's ability to analyze customer data, identify growth opportunities, and generate strategic recommendations
+**Data Sources**: Generic data repository with customer, product, sales, and marketing data
+**Competitive Focus**: Generic competitor analysis without real brand names
+
+## Expected Demo Process
+
+1. **Data Strategist** will analyze the generic data repository and generate hypotheses such as:
+   - "Customers in Region X who match high-value demographic profiles show 30% higher response rates to targeted campaigns"
+   - "Product categories with low market penetration in Region Y present growth opportunities when compared to competitor performance"
+   - "Customer segments that have not been engaged in 90+ days respond best to personalized re-engagement strategies"
+
+2. **Lead Analyst** will create analytical code to test these hypotheses using the demo data:
+   - Customer segmentation analysis
+   - Regional performance comparison
+   - Competitive benchmarking (using generic data)
+   - Campaign effectiveness modeling
+
+3. **Lead Researcher** will find supporting market research:
+   - Industry best practices for customer acquisition
+   - Regional market trends and consumer behavior
+   - Competitive strategy frameworks
+   - Marketing effectiveness benchmarks
+
+4. **Lead Report Writer** will synthesize findings into a comprehensive strategic report with:
+   - Executive summary of growth opportunities
+   - Regional performance analysis
+   - Customer segment recommendations
+   - Competitive strategy insights
+   - Marketing campaign recommendations
+
+5. **Senior Director** will review and provide strategic feedback for refinement
+
+## Demo Benefits
+
+This generic task allows users to:
+- Experience the complete multi-agent workflow
+- Understand how agents collaborate to solve business problems
+- Generate sample reports and strategic insights
+- Test framework functionality without exposing real business data
+- Learn about data-driven decision making processes
+
+## Additional Demo Goal Examples
+
+1. **Customer Retention**: "GOAL: Reduce customer churn in underperforming segments by identifying key drivers and developing targeted retention strategies using demo customer data."
+
+2. **Product Innovation**: "GOAL: Identify product innovation opportunities by analyzing customer preferences, purchase patterns, and market trends in the generic product data."
+
+3. **Marketing Optimization**: "GOAL: Optimize marketing spend allocation by analyzing channel performance, customer segment response, and ROI patterns in the demo marketing data."
+
+4. **Operational Efficiency**: "GOAL: Improve operational efficiency by analyzing process bottlenecks, resource utilization, and performance metrics across business units using demo operational data."
+
+5. **Market Expansion**: "GOAL: Identify new market expansion opportunities by analyzing regional performance, customer demographics, and competitive positioning using the generic data repository."
+
+---
+
+## Important Notes for Demo Usage
+
+- All outputs are based on generic, synthetic data
+- No real company names, brands, or proprietary information is used
+- Performance metrics are illustrative and not based on actual business data
+- Geographic references are generic (Region North, Region South, etc.)
+- Competitive analysis uses generic placeholders, not real competitors
+- All strategic recommendations are hypothetical and for demonstration only
+
+This demo task provides a safe, company-agnostic way to experience the full capabilities of the multi-agent framework while maintaining complete data privacy and business confidentiality.
