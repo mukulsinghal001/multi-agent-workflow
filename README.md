@@ -28,7 +28,7 @@ multi_agent_demo/
 ├── task_demo.txt               # Example business goals for demonstration
 ├── cli_config.yaml             # Agent configuration (unchanged)
 ├── README.md                   # This file
-└── runs/                       # Generated run directories (created during execution)
+└── run/                       # Generated run directories (created during execution)
 ```
 
 ## 🎯 Key Features
@@ -149,7 +149,7 @@ echo "GOAL: Increase customer retention in Region North by 15%" > task_demo.txt
 gemini run --config cli_config.yaml --task task_demo.txt
 
 # 3. Review the generated report
-cat runs/YYYYMMDD_hhmmss_retention/report.md
+cat run/YYYYMMDD_hhmmss_retention/report.md
 ```
 
 ### Advanced Usage
@@ -335,6 +335,7 @@ For questions about this demo:
 5. **Privacy Compliant**: Contains no sensitive or proprietary information
 
 This demo provides a safe, company-agnostic way to experience the full capabilities of a sophisticated multi-agent framework while maintaining complete data privacy and business confidentiality.
+
 
 
 
