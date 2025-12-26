@@ -29,20 +29,20 @@ gemini run --config cli_config.yaml --task task_demo.txt
 
 ```bash
 # Check the generated run directory
-ls runs/
+ls run/
 
 # Read the final report
-cat runs/YYYYMMDD_hhmmss_goal/report.md
+cat run/YYYYMMDD_hhmmss_goal/report.md
 
 # Review the full transcript
-cat runs/YYYYMMDD_hhmmss_goal/transcript.md
+cat run/YYYYMMDD_hhmmss_goal/transcript.md
 ```
 
 ## 📖 Understanding the Framework
 
 ### Agent Roles
 
-| Agent | Purpose | When It Runs |
+| Agent | Purpose | When It run |
 |-------|---------|---------------|
 | **Senior Director** | Strategic oversight | Beginning and end of each run |
 | **Data Strategist** | Hypothesis generation | Stage 1 - After goal is set |
@@ -233,10 +233,10 @@ cat task_demo.txt
 gemini run --verbose --config cli_config.yaml --task task_demo.txt
 
 # Check intermediate files
-ls -la runs/YYYYMMDD_hhmmss_goal/
+ls -la run/YYYYMMDD_hhmmss_goal/
 
 # Review agent logs
-cat runs/YYYYMMDD_hhmmss_goal/agent_logs.txt
+cat run/YYYYMMDD_hhmmss_goal/agent_logs.txt
 ```
 
 ## 📈 Advanced Usage
@@ -314,3 +314,4 @@ git push origin main
 - Join the community discussion
 
 **Happy Exploring!** 🎉
+
