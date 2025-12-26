@@ -21,7 +21,7 @@ Within this directory, the following files will be generated:
 ## Staged Workflow
 
 ### 1. Initiation
-*   The user provides a `task.txt` file with a business goal.
+*   The user provides a `task_demo.txt` file with a business goal.
 *   All Agent Personas from `agents_demo.md` are loaded.
 *   A `Run` is initiated, and its unique directory is created.
 
@@ -144,5 +144,6 @@ This generic workflow allows users to:
 - Learn how agents collaborate to solve complex business problems
 - Generate sample reports and analyses for educational purposes
 - Test the framework's adaptability to various business domains
+
 
 The demo version maintains all the core functionality while ensuring complete data privacy and business confidentiality.
