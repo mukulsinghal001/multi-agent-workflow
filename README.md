@@ -23,7 +23,7 @@ This demo allows you to experience the full capabilities of a multi-agent framew
 multi_agent_demo/
 ├── agents_demo.md              # Generic agent personas and capabilities
 ├── data_repository_demo.md     # Generic data schemas and analytical use cases
-├── gemini.md                   # Gemini Instructions
+├── Gemini.md                   # Gemini Instructions
 ├── guardrails_demo.md          # Demo-specific guardrails and compliance rules
 ├── task_demo.txt               # Example business goals for demonstration
 ├── cli_config.yaml             # Agent configuration (unchanged)
@@ -332,3 +332,4 @@ For questions about this demo:
 5. **Privacy Compliant**: Contains no sensitive or proprietary information
 
 This demo provides a safe, company-agnostic way to experience the full capabilities of a sophisticated multi-agent framework while maintaining complete data privacy and business confidentiality.
+
